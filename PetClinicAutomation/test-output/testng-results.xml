@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="12" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-04T17:53:22Z" name="PetClinicTestSuite" finished-at="2020-10-04T17:53:31Z" duration-ms="8472">
+    <groups>
+    </groups>
+    <test started-at="2020-10-04T17:53:22Z" name="PetClinicTests" finished-at="2020-10-04T17:53:31Z" duration-ms="8472">
+      <class name="com.petclinic.tests.LaunchUrlTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.petclinic.tests.LaunchUrlTest@10db82ae]" started-at="2020-10-04T17:53:22Z" name="setup" finished-at="2020-10-04T17:53:30Z" duration-ms="7669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="launchUrlTest(java.lang.String, java.lang.String)[pri:0, instance:com.petclinic.tests.LaunchUrlTest@10db82ae]" started-at="2020-10-04T17:53:30Z" name="launchUrlTest" finished-at="2020-10-04T17:53:30Z" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrlTest -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.petclinic.tests.LaunchUrlTest@10db82ae]" started-at="2020-10-04T17:53:30Z" name="getResults" finished-at="2020-10-04T17:53:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchUrlTest status=SUCCESS method=LaunchUrlTest.launchUrlTest(java.lang.String, java.lang.String)[pri:0, instance:com.petclinic.tests.LaunchUrlTest@10db82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.petclinic.tests.LaunchUrlTest@10db82ae]" started-at="2020-10-04T17:53:31Z" name="closeBrowser" finished-at="2020-10-04T17:53:32Z" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.petclinic.tests.LaunchUrlTest -->
+      <class name="com.petclinic.tests.AddOwnersFormPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.petclinic.tests.AddOwnersFormPageTest@27c86f2d]" started-at="2020-10-04T17:53:31Z" name="setUp" finished-at="2020-10-04T17:53:31Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddOwnersFormPageTest()[pri:0, instance:com.petclinic.tests.AddOwnersFormPageTest@27c86f2d]" started-at="2020-10-04T17:53:31Z" name="verifyAddOwnersFormPageTest" finished-at="2020-10-04T17:53:31Z" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddOwnersFormPageTest -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.petclinic.tests.AddOwnersFormPageTest@27c86f2d]" started-at="2020-10-04T17:53:31Z" name="getResults" finished-at="2020-10-04T17:53:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddOwnersFormPageTest status=SUCCESS method=AddOwnersFormPageTest.verifyAddOwnersFormPageTest()[pri:0, instance:com.petclinic.tests.AddOwnersFormPageTest@27c86f2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.petclinic.tests.AddOwnersFormPageTest -->
+      <class name="com.petclinic.tests.FindOwnersPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.petclinic.tests.FindOwnersPageTest@6b4a4e18]" started-at="2020-10-04T17:53:30Z" name="setUp" finished-at="2020-10-04T17:53:30Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFindOwnersTest()[pri:0, instance:com.petclinic.tests.FindOwnersPageTest@6b4a4e18]" started-at="2020-10-04T17:53:30Z" name="verifyFindOwnersTest" finished-at="2020-10-04T17:53:30Z" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFindOwnersTest -->
+        <test-method signature="verifyAddOwnersTest()[pri:0, instance:com.petclinic.tests.FindOwnersPageTest@6b4a4e18]" started-at="2020-10-04T17:53:30Z" name="verifyAddOwnersTest" finished-at="2020-10-04T17:53:31Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddOwnersTest -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.petclinic.tests.FindOwnersPageTest@6b4a4e18]" started-at="2020-10-04T17:53:30Z" name="getResults" finished-at="2020-10-04T17:53:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFindOwnersTest status=SUCCESS method=FindOwnersPageTest.verifyFindOwnersTest()[pri:0, instance:com.petclinic.tests.FindOwnersPageTest@6b4a4e18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.petclinic.tests.FindOwnersPageTest@6b4a4e18]" started-at="2020-10-04T17:53:31Z" name="getResults" finished-at="2020-10-04T17:53:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddOwnersTest status=SUCCESS method=FindOwnersPageTest.verifyAddOwnersTest()[pri:0, instance:com.petclinic.tests.FindOwnersPageTest@6b4a4e18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.petclinic.tests.FindOwnersPageTest -->
+      <class name="com.petclinic.tests.VeterinariansPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.petclinic.tests.VeterinariansPageTest@78b729e6]" started-at="2020-10-04T17:53:30Z" name="setUp" finished-at="2020-10-04T17:53:30Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyVeterinariansTest()[pri:0, instance:com.petclinic.tests.VeterinariansPageTest@78b729e6]" started-at="2020-10-04T17:53:30Z" name="verifyVeterinariansTest" finished-at="2020-10-04T17:53:30Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVeterinariansTest -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.petclinic.tests.VeterinariansPageTest@78b729e6]" started-at="2020-10-04T17:53:30Z" name="getResults" finished-at="2020-10-04T17:53:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyVeterinariansTest status=SUCCESS method=VeterinariansPageTest.verifyVeterinariansTest()[pri:0, instance:com.petclinic.tests.VeterinariansPageTest@78b729e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.petclinic.tests.VeterinariansPageTest -->
+      <class name="com.petclinic.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.petclinic.tests.HomePageTest@501edcf1]" started-at="2020-10-04T17:53:30Z" name="setUp" finished-at="2020-10-04T17:53:30Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageImageTest()[pri:0, instance:com.petclinic.tests.HomePageTest@501edcf1]" started-at="2020-10-04T17:53:30Z" name="verifyHomePageImageTest" finished-at="2020-10-04T17:53:30Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageImageTest -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.petclinic.tests.HomePageTest@501edcf1]" started-at="2020-10-04T17:53:30Z" name="getResults" finished-at="2020-10-04T17:53:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageImageTest status=SUCCESS method=HomePageTest.verifyHomePageImageTest()[pri:0, instance:com.petclinic.tests.HomePageTest@501edcf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method signature="verifyMenuItemTest()[pri:0, instance:com.petclinic.tests.HomePageTest@501edcf1]" started-at="2020-10-04T17:53:30Z" name="verifyMenuItemTest" finished-at="2020-10-04T17:53:30Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuItemTest -->
+        <test-method is-config="true" signature="getResults(org.testng.ITestResult)[pri:0, instance:com.petclinic.tests.HomePageTest@501edcf1]" started-at="2020-10-04T17:53:30Z" name="getResults" finished-at="2020-10-04T17:53:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMenuItemTest status=SUCCESS method=HomePageTest.verifyMenuItemTest()[pri:0, instance:com.petclinic.tests.HomePageTest@501edcf1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+      </class> <!-- com.petclinic.tests.HomePageTest -->
+    </test> <!-- PetClinicTests -->
+  </suite> <!-- PetClinicTestSuite -->
+</testng-results>

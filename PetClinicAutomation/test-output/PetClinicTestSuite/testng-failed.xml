@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PetClinicTestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.petclinic.ExtentReport.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="PetClinicTests(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="url"/>
+    <classes>
+      <class name="com.petclinic.tests.LaunchUrlTest">
+        <methods>
+          <include name="getResults"/>
+          <include name="launchUrlTest"/>
+          <include name="closeBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.petclinic.tests.LaunchUrlTest -->
+    </classes>
+  </test> <!-- PetClinicTests(failed) -->
+</suite> <!-- Failed suite [PetClinicTestSuite] -->

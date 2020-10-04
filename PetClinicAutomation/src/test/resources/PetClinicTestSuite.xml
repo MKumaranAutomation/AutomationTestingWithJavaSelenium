@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PetClinicTestSuite" parallel="none" >
+
+<listeners>
+	<listener class-name = "com.petclinic.ExtentReport.ExtentListener"/>
+</listeners> 
+ 
+  <test name="PetClinicTests" group-by-instances="true" preserve-order="true">
+  <parameter name="url" value="url"/>
+  <parameter name="browser" value="Chrome"/>
+    
+    <classes>
+      <class name = "com.petclinic.tests.LaunchUrlTest"/>
+      <class name="com.petclinic.tests.HomePageTest">
+      	<methods>
+      		<include name = "verifyHomePageImageTest"/>
+      		<include name = "verifyMenuItemTest"/>
+      	</methods>
+      </class>
+      
+      <class name="com.petclinic.tests.VeterinariansPageTest">
+      	<methods>
+      		<include name = "verifyVeterinariansTest"/>
+      	</methods>
+      </class>
+      
+      <class name="com.petclinic.tests.FindOwnersPageTest">
+      	<methods>
+      		<include name = "verifyFindOwnersTest"/>
+      		<include name = "verifyAddOwnersTest"/>
+      	</methods>
+      </class>
+      
+      <class name="com.petclinic.tests.FindOwnersPageTest">
+      	<methods>
+      		<include name = "verifyFindOwnersTest"/>
+      		<include name = "verifyAddOwnersTest"/>
+      	</methods>
+      </class>
+      
+      <class name="com.petclinic.tests.AddOwnersFormPageTest">
+      	<methods>
+      		<include name = "verifyAddOwnersFormPageTest"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> 
+</suite>

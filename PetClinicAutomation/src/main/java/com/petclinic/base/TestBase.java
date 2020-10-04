@@ -42,7 +42,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream fis = new FileInputStream(
-					driverPath +File.separator+"src"+File.separator+"main"+File.separator+"java"+File.separator+"com"+File.separator+"aftermarket"+File.separator+"config"+File.separator+"config.properties");
+					driverPath +File.separator+"src"+File.separator+"main"+File.separator+"java"+File.separator+"com"+File.separator+"petclinic"+File.separator+"config"+File.separator+"config.properties");
 			prop.load(fis);
 
 		} catch (FileNotFoundException fnfex) {
@@ -56,18 +56,10 @@ public class TestBase {
 	public static void initialization(String browser, String url) throws InterruptedException, TimeoutException {
 		browserName = browser;
 		
-		if(url.equalsIgnoreCase("dev")){
-			baseurl = prop.getProperty("devurl");
-		}else if (url.equalsIgnoreCase("qa")) {
-			baseurl = prop.getProperty("qaurl");
-		} else if (url.equalsIgnoreCase("uat")) {
-			baseurl = prop.getProperty("uaturl");
-		} else if (url.equalsIgnoreCase("prod")) {
-			baseurl = prop.getProperty("produrl");
-		} else if (url.equalsIgnoreCase("uathotfix")){
-			baseurl = prop.getProperty("uathotfix");
-		} else if (url.equalsIgnoreCase("demo")) {
-			baseurl = prop.getProperty("demourl");
+		if(url.equalsIgnoreCase("url")){
+			baseurl = prop.getProperty("url");
+		}else {
+			System.out.println("Please pass the URL to be launched");
 		}
 
 		/* This is to pickup the browser drivers based on the browser type */
